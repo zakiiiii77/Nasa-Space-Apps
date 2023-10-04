@@ -1,0 +1,10 @@
+<!-- templates/search_results.html -->
+<h1>Search Results</h1>
+
+<ul>
+  {% for nasaa in object_list %}
+    <li>
+      {{ nasaa.first_name }}, {{ nasaa.last_name }}, {{ nasaa.age }}
+    </li>
+  {% endfor %}
+</ul>   

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Water Struggle</title>
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'css/index.css' %}">
+        <styles>
+
+        </styles>
+    </head>
+    <body>
+      <!--Navbar-->
+      <nav class="navbar">
+        <ul>
+            <li><a herf="#">Swimming</a></li>
+            <li><a herf="#">Football</a></li>
+            <li><a herf="#">Tennis</a></li>
+            <li><a herf="#">Basketball</a></li>
+        </ul>
+        <img src="images/main_images/prof.png" class="user-pic"  onclick="toggleMenu()">
+        <div id="subMenu" class="sub-menu-wrap">
+            <div class="sub-menu">
+                <div class="user-info">
+                    <img src="images/main_images/prof.png">
+                    <h3>Annonymous Participant</h3>
+                </div>
+                <hr>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/profile.png">
+                    <p>Edit Profile</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/setting.png">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/help.png">
+                    <p>Help and Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="sub-menu-link">
+                    <img src="images/logout.png">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!--Endnav-->
+        <div class="intro">
+            <h1>Water Struggle</h1><br><br><br><br>
+            <h2>If there is magic on this planet, it is contained in water</h2>
+          <br>
+            </ul>
+            <div class="navigation">
+                <h5 class="homepage"><a href="">Home</a></h5>
+            </div>
+        </div>
+        <h1>HomePage</h1>
+
+        <form action="{% url 'search_results' %}" method="get">
+            <input name="q" type="text" placeholder="Search...">
+        </form>
+        <br><br><br><br>
+            <img src="" class="yoga">
+
+            <div class="mental">
+                <h3></h3><br>
+                <p></p>
+                    <br><br>
+                <p></p>
+                    <br><br>
+                <h3></h3><br>
+                <img src="" class="depression">
+                <p>
+                    <br>
+                    <br><br>
+                    <br><br>
+                </p>
+                    <br><br>
+                <h3></h3><br>
+
+
+
+
+        <p></p>
+        <br><br>
+
+
+
+        <h3></h3><br>
+
+
+        <p></p>
+        <br>
+        <p>
+        <br> <br>
+        </p>
+
+        </div>
+    </body>
+</html>
